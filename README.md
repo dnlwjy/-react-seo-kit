@@ -4,6 +4,19 @@ This kit helps you generate higher SEO score which includes site metadata, Open 
 
 The component is written in **TypeScript** and powered by **react-helmet-async**.
 
+Always place these components at the top level of your page before any visual UI elements like <Header /> or even <main>, because it will ensure all the meta tags and structured data are registered immediately, before the rest of the page is processed.
+
+<>
+  <SiteMetaData />
+  <BreadcrumbSchema />
+  <Header />
+  <main>
+    <article>
+      {/* content... */}
+    </article>
+  </main>
+</>
+
 ---
 
 ## Installation
