@@ -4,7 +4,7 @@ This kit helps you generate higher SEO score which includes site metadata, Open 
 
 I have used this react components multiple times for both professional and personal projects.
 
-You can define defaults at the root of your application (e.g., in `App.tsx` or layout) and override metadata on a per-page basis when needed.
+You can define default value at the root of your application (e.g., in `App.tsx` or layout) and then later override the metadata on a per-page basis when needed.
 
 Place the SEO components near the top level of your page or layout, before visual UI elements, to ensure metadata is registered correctly.
 
