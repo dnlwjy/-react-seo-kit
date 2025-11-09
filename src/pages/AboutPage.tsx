@@ -43,6 +43,7 @@ export default function AboutPage({ maxItems }: AboutPageProps) {
       {/* Page-specific SEO */}
       <SiteMetaData
         title="About | Example App"
+        description="Learn more about this example application."
         url="https://example.com/about"
         type="profile"
       />
