@@ -3,11 +3,11 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 
-// seo
+// SEO kit
 import { SiteMetaData } from "react-seo-kit";
 import { BreadcrumbSchema } from "react-seo-kit";
 
-// pages
+// all pages
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
