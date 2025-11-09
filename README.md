@@ -1,25 +1,10 @@
 # react-seo-kit
 
-This kit helps you generate higher SEO score which includes site metadata, Open Graph tags, Twitter Cards, canonical URLs, structured data, and I also have included Breadcrumbs for better Google indexing results and Google Search Console. I have used this react components multiple times for both professional and personal projects. 
+> This kit helps you generate higher SEO score which includes site metadata, Open Graph tags, Twitter Cards, canonical URLs, structured data, and I also have included Breadcrumbs for better Google indexing results and Google Search Console. I have used this react components multiple times for both professional and personal projects. 
 
-The component is written in **TypeScript** and powered by **react-helmet-async**.
+> You can define defaults at the root of your application (e.g., in `App.tsx` or layout) and override metadata on a per-page basis when needed.
 
-Always place these components at the top level of your page before any visual UI elements like Header or even main, because it will ensure all the meta tags and structured data are registered immediately, before the rest of the page is processed.
-
-```tsx
-<>
-  {/* Always place SEO components at the top */}
-  <SiteMetaData />
-  <BreadcrumbSchema />
-
-  <Header />
-
-  <main>
-    <article>
-      {/* content... */}
-    </article>
-  </main>
-</>
+> Place the SEO components near the top level of your page or layout, before visual UI elements, to ensure metadata is registered correctly.
 
 ---
 
